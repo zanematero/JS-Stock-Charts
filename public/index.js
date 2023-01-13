@@ -7,24 +7,24 @@ async function main() {
    fetch("https://api.twelvedata.com/time_series?symbol=GME,EUR/USD,ETH/BTC:Huobi,TRP:TSX&interval=1min&apikey=ef93728510a94905b54766cbeaafcac9")
   .then((response) => response.json())
   .then((data) => console.log(data))
-  let result = json();
+  let result = json(); // ???
 
   fetch("https://api.twelvedata.com/time_series?symbol=MSFT,EUR/USD,ETH/BTC:Huobi,TRP:TSX&interval=1min&apikey=ef93728510a94905b54766cbeaafcac9")
   .then((response) => response.json())
   .then((data) => console.log(data))
-  let result0 = json();
+  let result0 = json(); // ???
   
 
   fetch("https://api.twelvedata.com/time_series?symbol=DIS,EUR/USD,ETH/BTC:Huobi,TRP:TSX&interval=1min&apikey=ef93728510a94905b54766cbeaafcac9")
   .then((response) => response.json())
   .then((data) => console.log(data))
-  let result1 = json();
+  let result1 = json(); // ???
 
 
   fetch("https://api.twelvedata.com/time_series?symbol=BNTX,EUR/USD,ETH/BTC:Huobi,TRP:TSX&interval=1min&apikey=ef93728510a94905b54766cbeaafcac9")
   .then((response) => response.json())
   .then((data) => console.log(data))
-  let result2 = json();
+  let result2 = json(); // ???
 
 
 let GME = result.GME
